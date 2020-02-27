@@ -30,20 +30,19 @@ body {
     font-weight: 700;
     line-height: 100%;
 }
-
-ol {
+ol.menu {
     width: 1555px;
     margin-left: auto; /* here is to move the menu */
     margin-right: auto;
     margin-bottom: 50px;
     padding: 0;
 }
-ol::after {
+ol.menu::after {
     content: "";
     display: table;
     clear: both;
 }
-ol > li {
+ol > li.menu_list {
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -52,7 +51,7 @@ ol > li {
     margin-left: 50px;
     margin-right: 50px;
 }
-ol > li > ul {
+ol > li.menu_list > ul {
     font-size: 22px;
     text-transform: none;
     letter-spacing: 0;
@@ -61,7 +60,6 @@ ol > li > ul {
     margin-top: 5px;
     list-style-type: none;
 }
-
 a.link {
     color: black;
     text-decoration: none;
@@ -73,13 +71,41 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    width: 878px;
+    width: 876px;
     padding: 10px;
     border-left: 2px solid #E5E5E5;
     border-right: 2px solid #E5E5E5;
     border-top: 2px solid #E5E5E5;
 }
-.slajd {
-    padding: 0 40px 40px 40px;
+.slide {
+    padding: 40px;
     text-align: justify;
+}
+.slide:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+.slide11_text {
+    margin-bottom: 30px;
+}
+.slide11_img {
+    float: left;
+    padding: 0 20px;
+}
+.slide11_list {
+    float:left;
+    width:290px;
+    text-align:left;
+    padding: 20px 20px 0 20px;
+}
+ol > li.slide11_li {
+    margin-bottom: 20px;
 }
