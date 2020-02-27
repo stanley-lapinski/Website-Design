@@ -65,11 +65,11 @@
             <!-- ######################## SLAJD 1.1 ######################## -->
             <section class="slide">
                 <h1>Budowa monitora CRT</h1>
-                <div class="slide11_text">
+                <p class="text">
                 CRT to akronim od <strong>Cathode-Ray Tube</strong>, czyli lampy kineskopowej wyposażonej w działo elektronowe. W języku polskim
                 pod tym słowem przyjęto potoczną nazwę skrótową, synonim dla wyrażenia monitor CRT – czyli oznaczenie modeli monitorów komputerowych,
                 których wyświetlacz oparty jest na lampie obrazowej zwanej kineskopem. Właściwe określenie to monitor kineskopowy.
-                </div>
+                </p>
                 <div class="slide11_img">
                     <img src="img/budowa-crt.png" alt="crt"/>
                 </div>
@@ -87,200 +87,220 @@
             </section>
             <!-- ######################## SLAJD 1.2 ######################## -->
             <section class="slide">
-
-                <h1 id="działaniecrt">Zasada działania monitora CRT</h1>
-
-                Zasada tworzenia obrazu w kolorowym monitorze CRT polega na wysyłaniu w kierunku przedniej szyby powleczonej warstwą luminoforu, <strong>trzech wiązek elektronów</strong> (po jednej dla każdego składowego koloru RGB) za pomocą trzech dział elektronowych umieszczonych w tylnej części próżniowej tuby kineskopu. Wiązki te są kierowane za pomocą silnego pola magnetycznego (<strong>cewki odchylające</strong>) tak, aby trafiały w odpowiedni obszar na luminoforze.
-                <br /><br />
-                <strong>Luminofor jest to świecący pigment (fosfor)</strong>, materiał mający własności świecenia pod wpływem padającego nań promieniowania. Tworząc obraz wiązki przemiatają ekran wzdłuż pojedynczej poziomej linii, zwanej linią wybierania, od lewej do prawej, rozświetlając punkty luminoforu i powodując ich jaśniejsze bądź ciemniejsze świecenie, w zależności od chwilowego napięcia sterującego działem elektronowym.
-                <br /><br />
-
-                <div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+                <h1>Zasada działania monitora CRT</h1>
+                <p class="text">
+                    Zasada tworzenia obrazu w kolorowym monitorze CRT polega na wysyłaniu w kierunku przedniej szyby powleczonej warstwą luminoforu,
+                    <strong>trzech wiązek elektronów</strong> (po jednej dla każdego składowego koloru RGB) za pomocą trzech dział elektronowych
+                    umieszczonych w tylnej części próżniowej tuby kineskopu. Wiązki te są kierowane za pomocą silnego pola magnetycznego
+                    (<strong>cewki odchylające</strong>) tak, aby trafiały w odpowiedni obszar na luminoforze.
+                </p>
+                <p class="text">
+                    <strong>Luminofor jest to świecący pigment (fosfor)</strong>, materiał mający własności świecenia pod wpływem padającego nań
+                    promieniowania. Tworząc obraz wiązki przemiatają ekran wzdłuż pojedynczej poziomej linii, zwanej linią wybierania, od lewej do prawej,
+                    rozświetlając punkty luminoforu i powodując ich jaśniejsze bądź ciemniejsze świecenie, w zależności od chwilowego napięcia sterującego
+                    działem elektronowym.
+                </p>
+                <div class="frame">
                     Częstotliwość pozioma
                 </div>
-                <div style="width:790px; background-color:#dedede; padding:5px;">
+                <div class="subframe">
                     częstotliwość z jaką monitor rysuje pojedynczą linię obrazu, mierzona w kilohercach [kHz]
                 </div>
-
-                <br />
-                Po narysowaniu linii obrazu i osiągnięciu prawego brzegu ekranu wiązki są chwilowo wygaszane, po czym cewki odchylające kierują je na początek następnej linii ku dołowi ekranu i proces następuje od nowa, aż do zapełnienia całego ekranu linia po linii. Gdy cały ekran się zapełni, wiązki znowu zostają wygaszone, po czym cały cykl rysowania obrazu zaczyna się od nowa od góry ekranu (od pierwszej linii).
-                <br /><br />
-
-                <div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+                <p class="text">
+                    Po narysowaniu linii obrazu i osiągnięciu prawego brzegu ekranu wiązki są chwilowo wygaszane, po czym cewki odchylające kierują je na
+                    początek następnej linii ku dołowi ekranu i proces następuje od nowa, aż do zapełnienia całego ekranu linia po linii. Gdy cały ekran
+                    się zapełni, wiązki znowu zostają wygaszone, po czym cały cykl rysowania obrazu zaczyna się od nowa od góry ekranu (od pierwszej linii).
+                </p>
+                <div class="frame">
                     Częstotliwość odświeżania (pionowa)
                 </div>
-                <div style="width:790px; background-color:#dedede;padding:5px;">
+                <div class="subframe">
                     częstotliwość z jaką monitor rysuje cały ekran (wszystkie linie obrazu) - podawana w hercach [Hz]. Aby uniknąć migotania ekranu i zmęczenia oczu, obraz w pionie powinien być rysowany 85 razy w ciągu sekundy (częstotliwość odświeżania 85 Hz)
                 </div>
-
             </section>
             <!-- ######################## SLAJD 1.3 ######################## -->
             <section class="slide">
-
-                <h1 id="maskicrt">Rodzaje masek w monitorach CRT</h1>
-
-                Przed warstwą luminoforu znajduje się tzw. <strong>maska</strong> (ang. shadow mask), która pełni funkcję filtru dbającego o to, aby elektrony uderzały idealnie w powierzchnię wyznaczonych pól luminoforu (subpikseli) - co pozytywnie wpływa na jakość obrazu.
-                <br /><br />
-
-                <div style="width:265px; float:left; text-align:center; font-size:14px;">
-                    <img src="img/maska1.png" alt="maska1" />
-                    <br />perforowana (IBM Delta)
+                <h1>Rodzaje masek w monitorach CRT</h1>
+                <p class="text">
+                    Przed warstwą luminoforu znajduje się tzw. <strong>maska</strong> (ang. shadow mask), która pełni funkcję filtru dbającego o to,
+                    aby elektrony uderzały idealnie w powierzchnię wyznaczonych pól luminoforu (subpikseli) - co pozytywnie wpływa na jakość obrazu.
+                </p>
+                <div class="img">
+                    <div class="slide13_img">
+                        <img src="img/maska1.png" alt="maska1"/>
+                        <span class="caption">perforowana (IBM Delta)</span>
+                    </div>
+                    <div class="slide13_img">
+                        <img src="img/maska2.png" alt="maska2"/>
+                        <span class="caption">szczelinowa<br/>(Trinitron, Diamondtron)</span>
+                    </div>
+                    <div class="slide13_img">
+                        <img src="img/maska3.png" alt="maska3"/>
+                        <span class="caption">szczelinowo-perforowana<br/>(NEC Cromaclear)</span>
+                    </div>
+                    <div style="clear:both;"></div>
                 </div>
-                <div style="width:260px; float:left; text-align:center; font-size:14px;">
-                    <img src="img/maska2.png" alt="maska2" />
-                    <br />szczelinowa<br />(Trinitron, Diamondtron)
+                <div class="big_frame">
+                    <div class="float_frame">
+                        <div class="slide13_frame">
+                            <p>Maska perforowana</p>
+                        </div>
+                        <div class="slide13_subframe">
+                            Występowała w pierwszych monitorach CRT, została opracowana przez firmę IBM. Jej największą wadą jest zbyt
+                            duża powierzchnia, co wpływa na obniżenie jasności obrazu
+                        </div>
+                    </div>
+                    <div class="float_frame">
+                        <div class="slide13_frame">
+                            <p>Maska szczelinowa</p>
+                        </div>
+                        <div class="slide13_subframe">
+                            Została po raz pierwszy zastosowana w kineskopach NEC Cromaclear. Stanowi kompromis między dwoma poprzednimi
+                            rozwiązaniami - kosztem nieznacznej utraty jakości obrazu zrezygnowano z dwóch drutów stabilizujących.
+                            Również koszt produkcji tej maski jest dużo niższy
+                        </div>
+                    </div>
+                    <div class="float_frame">
+                        <div class="slide13_frame">
+                            <p class="p_frame">Maska<br/>szczelinowo-perforowana</p>
+                        </div>
+                        <div class="slide13_subframe">
+                            Częstotliwość z jaką monitor rysuje pojedynczą linię obrazu, mierzona w kilohercach [kHz]
+                        </div>
+                    </div>
                 </div>
-                <div style="width:265px; float:left; text-align:center; font-size:14px;">
-                    <img src="img/maska3.png" alt="maska3" />
-                    <br />szczelinowo-perforowana<br />(NEC Cromaclear)
-                </div>
-                <div style="clear:both;"></div>
-
-                <br />
-
-                <div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
-                    Maska perforowana
-                </div>
-                <div style="width:790px; background-color:#dedede; padding:5px;">
-                    występowała w pierwszych monitorach CRT, została opracowana przez firmę IBM. Jej największą wadą jest zbyt duża powierzchnia, co wpływa na obniżenie jasności obrazu
-                </div>
-
-                <br />
-
-                <div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
-                    Maska szczelinowa
-                </div>
-                <div style="width:790px; background-color:#dedede; padding:5px;">
-                    została po raz pierwszy zastosowana w kineskopach NEC Cromaclear. Stanowi kompromis między dwoma poprzednimi rozwiązaniami - kosztem nieznacznej utraty jakości obrazu zrezygnowano z dwóch drutów stabilizujących. Również koszt produkcji tej maski jest dużo niższy
-                </div>
-
-                <br />
-
-                <div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
-                    Maska szczelinowo-perforowana
-                </div>
-                <div style="width:790px; background-color:#dedede; padding:5px;">
-                    częstotliwość z jaką monitor rysuje pojedynczą linię obrazu, mierzona w kilohercach [kHz]
-                </div>
-
             </section>
             <!-- ######################## SLAJD 1.4 ######################## -->
             <section class="slide">
-
-                <h1 id="wadycrt">Wady i zalety monitorów CRT</h1>
-
-                Wybór rodzaju monitora zależy najbardziej od jego przeznaczenia. Monitory CRT zostały praktycznie całkowicie wyparte z rynku przez monitory ciekłokrystaliczne, niemniej jednak niektóre ich unikatowe właściwości sprawiają, iż nadal używają ich np. fotografowie.
-                <br /><br />
-
-                <div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+                <h1>Wady i zalety monitorów CRT</h1>
+                <p class="text">
+                    Wybór rodzaju monitora zależy najbardziej od jego przeznaczenia. Monitory CRT zostały praktycznie całkowicie wyparte z rynku przez
+                    monitory ciekłokrystaliczne, niemniej jednak niektóre ich unikatowe właściwości sprawiają, iż nadal używają ich np. fotografowie.
+                </p>
+                <div class="plus_frame">
                     Zalety monitorów kineskopowych
                 </div>
-                <div style="width:790px; background-color:#dedede; padding:5px;">
+                <div class="subframe">
                     szybki czas reakcji, wieloczęstotliwość (możliwość zmiany rozdzielczości), wierne odwzorowanie kolorów, duże kąty widzenia obrazu.
                 </div>
-
-                <br />
-
-                <div style="width:790px; background-color:#912525;padding:5px;font-weight:700;color:#fff;">
+                <div class="minus_frame">
                     Wady monitorów kineskopowych
                 </div>
-                <div style="width:790px; background-color:#dedede; padding:5px;">
+                <div class="subframe">
                     średnia jasność i kontrast obrazu, duże gabaryty i waga monitora (stąd trudniejsza regulacja), duży pobór mocy, zawsze istniejąca wypukłość ekranu, częstotliwość odświeżania ma istotny wpływ na jakość obrazu oraz zmęczenie oczu, wyższa emisja promieniowania elektromagnetycznego.
                 </div>
-
             </section>
             <!-- ######################## SLAJD 1.5 ######################## -->
             <section class="slide">
+                <h1>Dobór parametrów monitora CRT</h1>
+                <p class="text">
+                    W monitorach CRT rzeczywista powierzchnia robocza ekranu jest nieco mniejsza niż deklaruje producent, a to z powodu
+                    <strong>wypukłości ekranu</strong>, które zawsze występują w monitorze kineskopowym. Nawet w najnowszych modelach
+                    mających prawie płaskie ekrany (FST - Flat Square Tube) występują niewielkie wypukłości poziome.
+                </p>
 
-                <h1 id="parametrcrt">Dobór parametrów monitora CRT</h1>
-
-                W monitorach CRT rzeczywista powierzchnia robocza ekranu jest nieco mniejsza niż deklaruje producent, a to z powodu <strong>wypukłości ekranu</strong>, które zawsze występują w monitorze kineskopowym. Nawet w najnowszych modelach mających prawie płaskie ekrany (FST - Flat Square Tube) występują niewielkie wypukłości poziome.
-                <br /><br />
-
-                <div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+                <div class="frame">
                     Użyteczny rozmiar ekranu
                 </div>
-                <div style="width:790px; background-color:#dedede; padding:5px;">
+                <div class="subframe">
                     wymiar przekątnej ekranu monitora (wyrażony w calach)
                 </div>
-
-                <br />
-                Obecnie w monitorach CRT standardowymi rozdzielczościami są np. 1024×768 (XVGA), 1280×1024 (SXGA) oraz 1600×1200 (UXGA). Ze względu na możliwość wyświetlania wielu rozdzielczości (wieloczęstotliwość) ważne jest tylko, aby monitor zapewnił odpowiednią częstotliwość odświeżania pionowego dla wysokiej rozdzielczości.
-                <br /><br />
-
-                <div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+                <p class="text">
+                    Obecnie w monitorach CRT standardowymi rozdzielczościami są np. 1024×768 (XVGA), 1280×1024 (SXGA) oraz 1600×1200 (UXGA).
+                    Ze względu na możliwość wyświetlania wielu rozdzielczości (wieloczęstotliwość) ważne jest tylko, aby monitor zapewnił
+                    odpowiednią częstotliwość odświeżania pionowego dla wysokiej rozdzielczości.
+                </p>
+                <div class="frame">
                     Rozdzielczość
                 </div>
-                <div style="width:790px; background-color:#dedede; padding:5px;">
-                    parametr określający liczbę pikseli obrazu wyświetlanego na ekranie w bieżącym trybie pracy monitora komputerowego; rozdzielczość wyrażana jest w postaci liczby pikseli obrazu w poziomie i w pionie
+                <div class="subframe">
+                    parametr określający liczbę pikseli obrazu wyświetlanego na ekranie w bieżącym trybie pracy monitora komputerowego;
+                    rozdzielczość wyrażana jest w postaci liczby pikseli obrazu w poziomie i w pionie
                 </div>
-
-                <br />
-                W monitorze CRT fizyczny piksel ułożony na powierzchni ekranu nie przekłada się bezpośrednio na piksel "komputerowy" rozumiany jako najmniejszy element obrazu przetwarzanego przez kartę graficzną. Najczęściej w przypadku pracy z monitorem CRT na pojedynczy piksel obrazu komputerowego generowanego przez kartę graficzną przekłada się na kilkanaście pikseli fizycznych maski.
-                <br /><br />
-                Dlatego aby semantycznie odróżnić pojęcie piksela obrazu przesyłanego z karty graficznej oraz piksela rzeczywistego kineskopu wprowadzono pojęcie plamki. Im mniejsza plamka, tym elementy są gęściej rozmieszczone, co przekłada się na lepszą ostrość obrazu. Najczęstsze wielkości plamki: 0.2mm; 0.24mm; 0.25mm; 0.28mm.
-                <br /><br />
-
-                <div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+                <p class="text">
+                    W monitorze CRT fizyczny piksel ułożony na powierzchni ekranu nie przekłada się bezpośrednio na piksel "komputerowy" rozumiany
+                    jako najmniejszy element obrazu przetwarzanego przez kartę graficzną. Najczęściej w przypadku pracy z monitorem CRT na
+                    pojedynczy piksel obrazu komputerowego generowanego przez kartę graficzną przekłada się na kilkanaście pikseli fizycznych maski.
+                </p>
+                <p class="text">
+                    Dlatego aby semantycznie odróżnić pojęcie piksela obrazu przesyłanego z karty graficznej oraz piksela rzeczywistego kineskopu
+                    wprowadzono pojęcie plamki. Im mniejsza plamka, tym elementy są gęściej rozmieszczone, co przekłada się na lepszą ostrość obrazu.
+                    Najczęstsze wielkości plamki: 0.2mm; 0.24mm; 0.25mm; 0.28mm.
+                </p>
+                <div class="frame">
                     Rozmiar plamki w monitorze CRT
                 </div>
-                <div style="width:790px; background-color:#dedede; padding:5px;">
+                <div class="subframe">
                     odległość w [mm] pomiędzy dwoma pikselami (triadami) w danym kineskopie.
                 </div>
-
-                <br />
-                W monitorach kineskopowych (CRT) wyróżnia się poziomą i pionową częstotliwość odświeżania. Częstotliwość odświeżania pionowego informuje, ile razy na sekundę rysowany jest cały ekran. Częstotliwość odświeżania poziomego określa, ile razy w ciągu sekundy wiązka elektronów jest w stanie narysować linię poziomą. Częstotliwość pozioma ma bardzo dużą wartość (wyrażoną w kilohercach), więc z czysto praktycznego punktu widzenia ma małe znaczenie.
-
-                <br /><br />Mówiąc więc o częstotliwości odświeżania mamy zawsze na myśli częstotliwość pionową. Częstotliwość poniżej 80Hz szybko zmęczy oczy (widoczne migotanie obrazu), optymalnie powinna wynosić 85-100Hz przy danej rozdzielczości.
-                <br /><br />
-
-                <div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+                <p class="text">
+                    W monitorach kineskopowych (CRT) wyróżnia się poziomą i pionową częstotliwość odświeżania. Częstotliwość odświeżania pionowego
+                    informuje, ile razy na sekundę rysowany jest cały ekran. Częstotliwość odświeżania poziomego określa, ile razy w ciągu sekundy
+                    wiązka elektronów jest w stanie narysować linię poziomą. Częstotliwość pozioma ma bardzo dużą wartość (wyrażoną w kilohercach),
+                    więc z czysto praktycznego punktu widzenia ma małe znaczenie.
+                </p>
+                <p class="text">
+                    Mówiąc więc o częstotliwości odświeżania mamy zawsze na myśli częstotliwość pionową. Częstotliwość poniżej 80Hz szybko zmęczy
+                    oczy (widoczne migotanie obrazu), optymalnie powinna wynosić 85-100Hz przy danej rozdzielczości.
+                </p>
+                <div class="frame">
                     Częstotliwość odświeżania w monitorze CRT
                 </div>
-                <div style="width:790px; background-color:#dedede; padding:5px;">
+                <div class="subframe">
                     określa, ile razy w ciągu sekundy cały obraz (wszystkie linie) jest wyświetlany na ekranie monitora; wyrażona w hercach [Hz].
                 </div>
-
             </section>
             <!-- ######################## SLAJD 2.1 ######################## -->
             <section class="slide">
 
-                <h1 id="budowalcd">Budowa monitora LCD</h1>
-
-                LCD to akronim od Liquid Crystal Display - wyświetlacz ciekłokrystaliczny to urządzenie, którego zasada działania oparta jest na zmianie polaryzacji światła na skutek zmian orientacji cząsteczek ciekłego kryształu pod wpływem przyłożonego pola elektrycznego.
-                <br /><br />
-
-                <div style="float:left; width:500px; text-align: center;">
+                <h1>Budowa monitora LCD</h1>
+                <p class="text">
+                    LCD to akronim od Liquid Crystal Display - wyświetlacz ciekłokrystaliczny to urządzenie, którego zasada działania
+                    oparta jest na zmianie polaryzacji światła na skutek zmian orientacji cząsteczek ciekłego kryształu pod wpływem
+                    przyłożonego pola elektrycznego.
+                </p>
+                <div class="slide21_img">
                     <img src="img/budowa-lcd.png" alt="lcd" />
                 </div>
-                <div style="float:left; width:280px; text-align:left; padding-top:30px;">
-                    [1] filtr polaryzacyjny<br /><br />
-                    [2] szklane podłoże<br /><br />
-                    [3] przezroczyste elektrody<br /><br />
-                    [4] warstwa wyrównująca<br /><br />
-                    [5] ciekłe kryształy<br /><br />
-                    [6] filtry koloru
+                <div class="slide21_list">
+                    <ol>
+                        <li class="li">filtr polaryzacyjny</li>
+                        <li class="slide21_li">szklane podłoże</li>
+                        <li class="slide21_li">przezroczyste elektrody</li>
+                        <li class="slide21_li">warstwa wyrównująca</li>
+                        <li class="slide21_li">ciekłe kryształy</li>
+                        <li class="slide21_li">filtry koloru</li>
+                    </ol>
                 </div>
                 <div style="clear:both;"></div>
 
             </section>
             <!-- ######################## SLAJD 2.2 ######################## -->
             <section class="slide">
-
-                <h1 id="zasadalcd">Zasada działania monitora LCD</h1>
-
-                Zasada tworzenia obrazu w kolorowym monitorze LCD jest nieco inna niż w monitorach CRT. Zrezygnowano z działa elektronowego, dzięki czemu monitor ma dużo mniejsze gabaryty i wagę. Źródłem światła są najczęściej <strong>cienkie lampy jarzeniowe</strong> (albo <strong>diody LED</strong> w dużo droższych monitorach ledowych). Światło jest przepuszczane przez <strong>filtr polaryzacyjny</strong>, który przepuszcza fale świetlne o określonej fazie. Następnie strumień światła tafia na filtr z poziomymi szczelinami, po czym przechodzi przez warstwę polikrzemową zwaną ciekłymi kryształami i trafia na drugi filtr z pionowymi szczelinami.
-                <br /><br />
-                Jeżeli strumień światła nie zostanie załamany o 90&deg; przez warstwę ciekłych kryształów, to światło zostanie całkowicie zatrzymane na drugim filtrze. Jeżeli jednak strumień światła zostanie załamany o 90&deg; przez molekuły ciekłych kryształów, to światło zostanie podane na ekran.  <strong>Molekułami ciekłych kryształów sterujemy za pomocą tranzystorów</strong> - podanie napięcia powoduje odpowiednie zorientowanie cząstek i załamanie strumienia światła o 90&deg; (wzbudzenie). Każdy piksel w monitorze LCD składa się z trzech (tzw. <strong>triada</strong>) subpikseli odpowiadających kolorom RGB. Każdy subpiksel jest sterowany niezależnie oddzielnym tranzystorem.
-                <br /><br />
-
-                <div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+                <h1>Zasada działania monitora LCD</h1>
+                <p class="text">
+                    Zasada tworzenia obrazu w kolorowym monitorze LCD jest nieco inna niż w monitorach CRT. Zrezygnowano z działa elektronowego,
+                    dzięki czemu monitor ma dużo mniejsze gabaryty i wagę. Źródłem światła są najczęściej <strong>cienkie lampy jarzeniowe</strong>
+                    (albo <strong>diody LED</strong> w dużo droższych monitorach ledowych). Światło jest przepuszczane przez
+                    <strong>filtr polaryzacyjny</strong>, który przepuszcza fale świetlne o określonej fazie. Następnie strumień światła tafia
+                    na filtr z poziomymi szczelinami, po czym przechodzi przez warstwę polikrzemową zwaną ciekłymi kryształami i trafia na drugi
+                    filtr z pionowymi szczelinami.
+                </p>
+                <p class="text">
+                    Jeżeli strumień światła nie zostanie załamany o 90&deg; przez warstwę ciekłych kryształów, to światło zostanie całkowicie zatrzymane
+                    na drugim filtrze. Jeżeli jednak strumień światła zostanie załamany o 90&deg; przez molekuły ciekłych kryształów, to światło zostanie
+                    podane na ekran.  <strong>Molekułami ciekłych kryształów sterujemy za pomocą tranzystorów</strong> - podanie napięcia powoduje
+                    odpowiednie zorientowanie cząstek i załamanie strumienia światła o 90&deg; (wzbudzenie). Każdy piksel w monitorze LCD składa się z
+                    trzech (tzw. <strong>triada</strong>) subpikseli odpowiadających kolorom RGB. Każdy subpiksel jest sterowany niezależnie oddzielnym
+                    tranzystorem.
+                </p>
+                <div class="frame">
                     Dead pixel (martwy piksel)
                 </div>
-                <div style="width:790px; background-color:#dedede; padding:5px;">
-                    to subpiksel, który nie zmienia swojej barwy lub się nie wzbudza - np. w wyniku awarii tranzystora sterującego - brak załamania strumienia światła
+                <div class="subframe">
+                    to subpiksel, który nie zmienia swojej barwy lub się nie wzbudza - np. w wyniku awarii tranzystora sterującego -
+                    brak załamania strumienia światła
                 </div>
-
             </section>
             <!-- ######################## SLAJD 2.3 ######################## -->
             <section class="slide">

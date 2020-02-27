@@ -37,7 +37,7 @@ ol.menu {
     margin-bottom: 50px;
     padding: 0;
 }
-ol.menu::after {
+ol.menu:after {
     content: "";
     display: table;
     clear: both;
@@ -71,7 +71,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    width: 876px;
+    width: 880px;
     padding: 10px;
     border-left: 2px solid #E5E5E5;
     border-right: 2px solid #E5E5E5;
@@ -91,21 +91,112 @@ h1 {
     letter-spacing: 3px;
     font-size: 34px;
     font-weight: 700;
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
 }
-.slide11_text {
-    margin-bottom: 30px;
+.text {
+    margin: 20px 0 0 0;
 }
 .slide11_img {
     float: left;
-    padding: 0 20px;
+    margin: 30px 20px 0 20px;
 }
 .slide11_list {
     float:left;
-    width:290px;
+    width:295px;
     text-align:left;
-    padding: 20px 20px 0 20px;
+    margin: 30px 20px 0 20px;
 }
-ol > li.slide11_li {
+ol > li {
     margin-bottom: 20px;
+}
+.frame {
+    margin-top: 20px;
+    width:790px;
+    background-color:#54C5D1;
+    padding: 5px;
+    font-weight:700;
+}
+.subframe {
+    width:790px;
+    background-color:#dedede;
+    padding:5px;
+}
+.img {
+    width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+.slide13_img {
+    width:200px;
+    height: 200px;
+    padding: 0 30px 0 30px;
+    float:left;
+    text-align:center;
+    font-size:14px;
+}
+.big_frame {
+    width: 795px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.big_frame:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.float_frame {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slide13_frame {
+    text-align: center;
+    width:235px;
+    height: 50px;
+    background-color:#54C5D1;
+    padding: 5px;
+    font-weight:700;
+}
+.slide13_frame p {
+    margin: 13px 0 0 0;
+}
+.slide13_frame p.p_frame {
+    margin: 1px 0 0 0;
+}
+.slide13_subframe {
+    text-align: left;
+    width:235px;
+    background-color:#dedede;
+    padding:5px;
+}
+.plus_frame {
+    margin-top: 20px;
+    width: 790px;
+    background-color: darkgreen;
+    padding: 5px;
+    font-weight: 700;
+    color: #fff;
+}
+.minus_frame {
+    margin-top: 20px;
+    width:790px;
+    background-color: darkred;
+    padding:5px;
+    font-weight:700;
+    color:#fff;
+}
+.slide21_img {
+    float:left;
+    height: 372px;
+    margin: 30px 20px 0 52px;
+}
+.slide21_list {
+    padding-top: 30px;
+    font-size: 22px;
+    float:left;
+    width:280px;
+    text-align:left;
+    margin: 30px 52px 0 20px;
 }
