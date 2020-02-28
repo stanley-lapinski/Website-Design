@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8149b958-dbca-4dc9-85f1-467c7204ba86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scrolling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/up.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/up.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +43,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Stanisław\IdeaProjects\HTMLProject\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Stanisław\IdeaProjects\HTMLProject\img" />
     </key>
@@ -66,7 +65,8 @@
       <workItem from="1582569045922" duration="1690000" />
       <workItem from="1582718326601" duration="8622000" />
       <workItem from="1582799476297" duration="34428000" />
-      <workItem from="1582846118158" duration="7918000" />
+      <workItem from="1582846118158" duration="8655000" />
+      <workItem from="1582893533386" duration="1000000" />
     </task>
     <servers />
   </component>
@@ -82,9 +82,9 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1582851045276" />
-    <state x="536" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1582846117654">
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1582893533261">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="536" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1582846117654" />
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1582893533261" />
   </component>
 </project>
