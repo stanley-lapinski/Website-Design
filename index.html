@@ -10,10 +10,14 @@
     <meta name="keywords" content="komputer, monitor, telewizor, CRT, LCD, PC, mac"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chorme=1"/>
 
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="css/fontello.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/scrolling.js"></script>
 
 </head>
 
@@ -59,11 +63,12 @@
             </li>
         </ol>
     </nav>
+    <a href="#" class="scrollUp"></a>
     <main>
         <article class="container">
             <!-- ######################## SLAJD 1.1 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Budowa monitora CRT</h1>
+                <h1 id="budowacrt"><i class="icon-desktop-circled"></i> Budowa monitora CRT</h1>
                 <p class="text">
                     CRT to akronim od <strong>Cathode-Ray Tube</strong>, czyli lampy kineskopowej wyposażonej w działo
                     elektronowe. W języku polskim pod tym słowem przyjęto potoczną nazwę skrótową, synonim dla wyrażenia
@@ -85,7 +90,7 @@
             </section>
             <!-- ######################## SLAJD 1.2 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Zasada działania monitora CRT</h1>
+                <h1 id="działaniecrt"><i class="icon-desktop-circled"></i> Zasada działania monitora CRT</h1>
                 <p class="text">
                     Zasada tworzenia obrazu w kolorowym monitorze CRT polega na wysyłaniu w kierunku przedniej szyby
                     powleczonej warstwą luminoforu, <strong>trzech wiązek elektronów</strong> (po jednej dla każdego
@@ -124,7 +129,7 @@
             </section>
             <!-- ######################## SLAJD 1.3 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Rodzaje masek w monitorach CRT</h1>
+                <h1 id="maskicrt"><i class="icon-desktop-circled"></i> Rodzaje masek w monitorach CRT</h1>
                 <p class="text">
                     Przed warstwą luminoforu znajduje się tzw. <strong>maska</strong> (ang. shadow mask), która pełni
                     funkcję filtru dbającego o to, aby elektrony uderzały idealnie w powierzchnię wyznaczonych pól
@@ -178,7 +183,7 @@
             </section>
             <!-- ######################## SLAJD 1.4 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Wady i zalety monitorów CRT</h1>
+                <h1 id="wadycrt"><i class="icon-desktop-circled"></i> Wady i zalety monitorów CRT</h1>
                 <p class="text">
                     Wybór rodzaju monitora zależy najbardziej od jego przeznaczenia. Monitory CRT zostały praktycznie całkowicie wyparte z rynku przez
                     monitory ciekłokrystaliczne, niemniej jednak niektóre ich unikatowe właściwości sprawiają, iż nadal używają ich np. fotografowie.
@@ -198,7 +203,7 @@
             </section>
             <!-- ######################## SLAJD 1.5 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Dobór parametrów monitora CRT</h1>
+                <h1 id="parametrcrt"><i class="icon-desktop-circled"></i> Dobór parametrów monitora CRT</h1>
                 <p class="text">
                     W monitorach CRT rzeczywista powierzchnia robocza ekranu jest nieco mniejsza niż deklaruje producent, a to z powodu
                     <strong>wypukłości ekranu</strong>, które zawsze występują w monitorze kineskopowym. Nawet w najnowszych modelach
@@ -257,7 +262,7 @@
             </section>
             <!-- ######################## SLAJD 2.1 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Budowa monitora LCD</h1>
+                <h1 id="budowalcd"><i class="icon-desktop-circled"></i> Budowa monitora LCD</h1>
                 <p class="text">
                     LCD to akronim od Liquid Crystal Display - wyświetlacz ciekłokrystaliczny to urządzenie, którego zasada działania
                     oparta jest na zmianie polaryzacji światła na skutek zmian orientacji cząsteczek ciekłego kryształu pod wpływem
@@ -277,7 +282,7 @@
             </section>
             <!-- ######################## SLAJD 2.2 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Zasada działania monitora LCD</h1>
+                <h1 id="zasadalcd"><i class="icon-desktop-circled"></i> Zasada działania monitora LCD</h1>
                 <p class="text">
                     Zasada tworzenia obrazu w kolorowym monitorze LCD jest nieco inna niż w monitorach CRT. Zrezygnowano z działa elektronowego,
                     dzięki czemu monitor ma dużo mniejsze gabaryty i wagę. Źródłem światła są najczęściej <strong>cienkie lampy jarzeniowe</strong>
@@ -304,7 +309,7 @@
             </section>
             <!-- ######################## SLAJD 2.3 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Podział matryc w monitorach LCD</h1>
+                <h1 id="matrycelcd"><i class="icon-desktop-circled"></i> Podział matryc w monitorach LCD</h1>
                 <p class="text">
                     <strong>Matryce pasywne</strong> stosowano w początkach technologii LCD - pojedyncze tranzystory sterowały całymi wierszami
                     i kolumnami pikseli. Monitory oparte na matrycach pasywnych smużyły (miały wolny czas reakcji, pojawiały się smugi i cienie).
@@ -352,7 +357,7 @@
             </section>
             <!-- ######################## SLAJD 2.4 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Wady i zalety monitorów LCD</h1>
+                <h1 id="wadylcd"><i class="icon-desktop-circled"></i> Wady i zalety monitorów LCD</h1>
                 <p class="text">
                     Wybór rodzaju monitora zależy najbardziej od jego przeznaczenia. Monitory LCD praktycznie całkowicie wyparły z
                     rynku monitory kineskopowe, niemniej jednak wcale nie oznacza to, iż są pozbawione wszelkich wad.
@@ -375,7 +380,7 @@
             </section>
             <!-- ######################## SLAJD 2.5 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Dobór parametrów monitora LCD</h1>
+                <h1 id="parametrylcd"><i class="icon-desktop-circled"></i> Dobór parametrów monitora LCD</h1>
                 <p class="text">
                     W monitorach LCD przekątna ekranu wynosi dokładnie tyle, ile deklaruje producent, ponieważ panele
                     ciekłokrystaliczne mają idealnie płaskie ekrany.
@@ -464,7 +469,7 @@
             </section>
             <!-- ######################## SLAJD 3.1 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Złącze analogowe DSUB (VGA)</h1>
+                <h1 id="dsub"><i class="icon-desktop-circled"></i> Złącze analogowe DSUB (VGA)</h1>
                 <p class="text">
                     Złącze popularne w czasach monitorów CRT - niepożądane w monitorze LCD, ponieważ zachodzi wówczas
                     dwukrotna konwersja sygnału: zamiana sygnału cyfrowego na analogowy w karcie graficznej oraz
@@ -479,7 +484,7 @@
             </section>
             <!-- ######################## SLAJD 3.2 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Złącza cyfrowe DVI</h1>
+                <h1 id="dvi"><i class="icon-desktop-circled"></i> Złącza cyfrowe DVI</h1>
                 <p class="text">
                     DVI to akronim od <strong>Digital Video Interface</strong>. Cyfrowy standard przesyłania sygnału
                     wideo, w odmianach DVI-I (DVI - Integrated) oraz DVI-A (DVI - Analog) umożliwia także przesyłanie
@@ -515,7 +520,7 @@
             </section>
             <!-- ######################## SLAJD 3.3 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Złącza cyfrowe HDMI oraz Display Port</h1>
+                <h1 id="hdmi"><i class="icon-desktop-circled"></i> Złącza cyfrowe HDMI oraz Display Port</h1>
                 <p class="text">
                     <strong>Złącze HDMI</strong> (High Definition Multimedia Interface) to cyfrowy standard
                     przesyłania sygnału audio/wideo umożliwiający transmisję w wysokiej rozdzielczości (HD) oraz
@@ -541,7 +546,7 @@
             </section>
             <!-- ######################## SLAJD 4.1 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Przyszłość monitorów i wyświetlaczy?</h1>
+                <h1 id="future"><i class="icon-desktop-circled"></i> Przyszłość monitorów i wyświetlaczy?</h1>
                 <p class="text">
                     Producenci wciąż prześcigają się w tworzeniu nowych technologii, które zapewnią jeszcze lepsze
                     parametry wyświetlanego obrazu, a jednocześnie mniejsze koszty produkcji. Jaka technologia
@@ -569,8 +574,9 @@
             </section>
             <!-- ######################## SLAJD 4.2 ######################## -->
             <section class="slide">
-                <h1><i class="icon-desktop-circled"></i> Wykorzystane źródła</h1>
+                <h1 id="source"><i class="icon-desktop-circled"></i> Wykorzystane źródła</h1>
                 <ul>
+                    <li>Kurs programowania Mirosława Zelenta - miroslawzelent.pl</li>
                     <li>Urządzenia techniki komputerowej. Podręcznik do nauki zawodu technik informatyk. Helion. Tomasz Kowalski</li>
                     <li>Urządzenia techniki komputerowej. WSIP. Tomasz Marciniuk</li>
                     <li>http://www.neurosoft.edu.pl/zgomolka/CRT_LCD.pdf</li>
